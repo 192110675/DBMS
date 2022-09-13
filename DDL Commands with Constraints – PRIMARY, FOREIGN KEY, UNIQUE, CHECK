@@ -1,0 +1,37 @@
+CREATE TABLE
+
+CREATE TABLE table_name
+
+(
+
+column_name1 data_type,
+
+column_name2 data_type,
+
+column_name3 data_type,
+
+....
+
+);
+
+ALTER A TABLE
+
+To add a column in a table
+
+ALTER TABLE table_name
+
+ADD column_namedatatype;
+
+To delete a column in a table
+
+ALTER TABLE table_name
+
+DROP COLUMN column_name;
+
+DROP TABLE
+
+DROP TABLE table_name;
+
+TRUNCATE TABLE
+
+TRUNCATE TABLE table_name;

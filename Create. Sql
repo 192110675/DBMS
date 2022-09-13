@@ -1,0 +1,12 @@
+--create a table
+CREATE TABLE EMPLOYEE(
+EMPID INT,
+EMPNAME,
+EMPADDRESS
+);
+--insert some values
+INSERT INTO EMPLOYEE VALUES(10,'nikhil','visakhapatnam');
+INSERT INTO EMPLOYEE VALUES(11,'siva','nellore');
+INSERT INTO EMPLOYEE VALUES(12,'sai','ongole');
+INSERT INTO EMPLOYEE VALUES(13,'hari','tuni');
+SELECT * FROM EMPLOYEE

@@ -1,0 +1,16 @@
+SELECT
+column_1, column_2, ...
+
+FROM
+
+table_1
+[INNER | LEFT |RIGHT] JOIN table_2 ON conditions
+WHERE
+
+conditions
+
+GROUP BY column_1
+HAVING group_conditions
+
+ORDER BY column_1
+LIMIT offset, length;

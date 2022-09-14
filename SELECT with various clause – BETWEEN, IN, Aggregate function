@@ -1,0 +1,25 @@
+BETWEEN operator:
+
+SELECT
+
+column1,column2,...
+
+FROM
+
+table_name
+
+WHERE expr [NOT] BETWEEN begin_expr AND end_expr;
+
+The expr is the expression to test in the range that is defined by begin_expr and end_expr.
+
+IN operator:
+
+SELECT
+
+column1,column2,...
+
+FROM
+
+table_name
+
+WHERE (expr|column_1) IN ('value1','value2',...);

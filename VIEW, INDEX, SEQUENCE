@@ -1,0 +1,23 @@
+CREATE
+
+[ALGORITHM = {MERGE | TEMPTABLE | UNDEFINED}] VIEW [database_name].[view_name] AS
+
+[SELECT statement]
+
+INDEX:
+
+CREATE [UNIQUE|FULLTEXT|SPATIAL] INDEX index_name
+
+USING [BTREE | HASH | RTREE]
+
+ON table_name (column_name [(length)] [ASC | DESC],...)
+
+SEQUENCE:
+
+CREATE TABLE table_name(
+
+col_name1 AUTO_INCREMENT PRIMARY
+
+KEY, col_name2,
+
+col_name3, ….);

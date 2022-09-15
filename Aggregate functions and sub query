@@ -1,0 +1,35 @@
+SUBQUERY:
+
+SELECT
+
+c1, c2,...,cn
+
+FROM
+
+table
+
+WHERE
+
+c1 IN (SELECT
+
+c1, c2,...,cn
+
+FROM
+
+table WHERE
+
+where_conditions);
+
+CORRELATED QUERY:
+
+SELECT
+
+*
+
+FROM
+
+table_name
+
+WHERE
+
+EXISTS(subquery );

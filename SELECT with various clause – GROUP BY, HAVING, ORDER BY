@@ -1,0 +1,23 @@
+GROUP BY – HAVING:	
+
+SELECT
+
+c1, c2,...,cn, aggregate_function(ci)
+
+FROM
+
+table
+
+WHERE
+
+where_conditions
+
+GROUP BY c1 , c2,...,cn
+
+HAVING conditionSSELECT column1, column2,...
+
+FROM tbl
+
+ORDER BY column1 [ASC|DESC], column2 [ASC|DESC],...
+
+ASC stands for ascending and the DESC stands for descending. By default, the ORDER BY clause sorts the result set in ascending order if you don’t specify ASC or DESC explicitly.
